@@ -10,6 +10,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".hencode.DrawOne.DrawOneActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
