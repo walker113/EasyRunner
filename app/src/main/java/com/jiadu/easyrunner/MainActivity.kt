@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.jiadu.easyrunner.hencode.custom_size_layout.CustomSizeLayoutActivity
+import com.jiadu.easyrunner.hencode.touch.TouchActivity
 
 class MainActivity : AppCompatActivity() , View.OnClickListener{
 
@@ -14,6 +15,9 @@ class MainActivity : AppCompatActivity() , View.OnClickListener{
         when (v?.id) {
             R.id.btn_custom_size ->
                 startActivity(Intent(this, CustomSizeLayoutActivity::class.java))
+            R.id.btn_touch ->
+                startActivity(Intent(this, TouchActivity::class.java))
+
         }
 
     }
@@ -24,6 +28,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener{
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.btn_custom_size).setOnClickListener(this)
+        findViewById<Button>(R.id.btn_touch).setOnClickListener(this)
 
     }
 

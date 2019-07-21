@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+>
+
+
+    <com.jiadu.easyrunner.hencode.touch.TouchView
+            android:id="@+id/touch_view"
+            android:background="@color/colorPrimary"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+
+    <View
+            android:id="@+id/view"
+            android:tooltipText="长按会显示text内容，注意不能设置点击事件"
+            android:background="@color/colorAccent"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+
+</LinearLayout>
