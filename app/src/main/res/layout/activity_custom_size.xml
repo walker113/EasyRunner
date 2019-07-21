@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.jiadu.easyrunner.hencode.custom_size_layout.view.TabLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+    >
+
+        <ImageView
+                android:padding="20dp"
+                android:src="@drawable/sy_image_25d_default"
+                android:scaleType="centerCrop"
+                android:layout_width="300dp"
+                android:layout_height="200dp"/>
+
+        <ImageView
+                android:src="@drawable/sy_image_25d_default"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+        <ImageView
+                android:src="@drawable/sy_image_25d_default"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+        <ImageView
+                android:src="@drawable/sy_image_25d_default"
+                android:scaleType="centerCrop"
+                android:layout_width="300dp"
+                android:layout_height="200dp"/>
+
+
+    </com.jiadu.easyrunner.hencode.custom_size_layout.view.TabLayout>
+
+</android.support.constraint.ConstraintLayout>

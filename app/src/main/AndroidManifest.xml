@@ -11,15 +11,17 @@
             android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
 
-        </activity>
-        <activity android:name=".hencode.DrawOne.DrawOneActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".hencode.DrawOne.DrawOneActivity">
+
+
+        </activity>
+        <activity android:name=".hencode.custom_size_layout.CustomSizeLayoutActivity"/>
     </application>
 
 </manifest>
