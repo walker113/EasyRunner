@@ -1,6 +1,7 @@
 
+
 ext {
-    dependencies= [
-            'klog' : 'com.github.zhaokaiqiang.klog:library:1.6.0'
+    dependencies = [
+            "klog" : "com.github.zhaokaiqiang.klog:library:1.6.0"
     ]
 }
