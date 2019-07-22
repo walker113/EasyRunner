@@ -1,9 +1,9 @@
-package com.jiadu.easyrunner.hencode.DrawOne
+package com.jiadu.easyrunner.hencode.utils
 
 import android.content.res.Resources
 import android.util.TypedValue
 
-class Utils {
+public class Utils {
 
     companion object {
         fun dp2px(dp: Float) : Float {

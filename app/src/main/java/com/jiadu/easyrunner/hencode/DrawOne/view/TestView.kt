@@ -5,7 +5,6 @@ import android.graphics.*
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
-import com.jiadu.easyrunner.hencode.DrawOne.Utils
 
 /**
  *  顺时针或逆时针画的？复杂图形时，相交部分的处理

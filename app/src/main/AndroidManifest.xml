@@ -14,11 +14,16 @@
         </activity>
         <activity android:name=".hencode.DrawOne.DrawOneActivity">
 
+
+        </activity>
+        <activity android:name=".hencode.customsize.CustomSizeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
+
         </activity>
     </application>
 
